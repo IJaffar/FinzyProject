@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-02-19T20:00:17Z" name="Suite" finished-at="2020-02-19T20:00:42Z" duration-ms="24883">
+    <groups>
+    </groups>
+    <test started-at="2020-02-19T20:00:17Z" name="Test" finished-at="2020-02-19T20:00:35Z" duration-ms="17753">
+      <class name="Execution.TestExecution">
+        <test-method signature="verify_launch_1(java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:Execution.TestExecution@609cd4d8]" started-at="2020-02-20T01:30:17Z" name="verify_launch_1" finished-at="2020-02-20T01:30:35Z" duration-ms="17683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[searchText_1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[expResulthref_1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_launch_1 -->
+      </class> <!-- Execution.TestExecution -->
+    </test> <!-- Test -->
+    <test started-at="2020-02-19T20:00:17Z" name="Test1" finished-at="2020-02-19T20:00:42Z" duration-ms="24880">
+      <class name="Execution.TestExecution">
+        <test-method signature="verify_launch_1(java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:Execution.TestExecution@687e99d8]" started-at="2020-02-20T01:30:17Z" name="verify_launch_1" finished-at="2020-02-20T01:30:42Z" duration-ms="24830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[searchText_2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[expResulthref_2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_launch_1 -->
+      </class> <!-- Execution.TestExecution -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

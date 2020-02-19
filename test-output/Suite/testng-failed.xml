@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="maxPageCount" value="3"/>
+  <parameter name="searchText" value="searchText_1"/>
+  <parameter name="browser" value="firefox"/>
+  <parameter name="expResulthref" value="expResulthref_1"/>
+  <test parallel="tests" name="Test(failed)">
+    <parameter name="maxPageCount" value="3"/>
+    <parameter name="searchText" value="searchText_1"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="expResulthref" value="expResulthref_1"/>
+    <classes>
+      <class name="Execution.TestExecution">
+        <methods>
+          <include name="verify_launch_1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Execution.TestExecution -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test parallel="tests" name="Test1(failed)">
+    <parameter name="maxPageCount" value="3"/>
+    <parameter name="searchText" value="searchText_1"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="expResulthref" value="expResulthref_1"/>
+    <classes>
+      <class name="Execution.TestExecution">
+        <methods>
+          <include name="verify_launch_1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Execution.TestExecution -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
